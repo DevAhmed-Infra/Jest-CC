@@ -1,5 +1,5 @@
-function filterName(name = 'unknown') {
-  if (name.includes(' ')) {
+function filterName(name = "unknown") {
+  if (name.includes(" ")) {
     name = name.trim();
   }
   if (name.length > 10) {
@@ -7,6 +7,9 @@ function filterName(name = 'unknown') {
   }
   if (name.startsWith("_")) {
     name = name.substring(1);
+  }
+  if (name === "Hell") {
+    throw Error("This Name Is Not Allowed");
   }
   return name;
 }
