@@ -1,0 +1,21 @@
+{
+  "name": "jest-course",
+  "version": "1.0.0",
+  "description": "Jest Unit Testing Course Files",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
+  },
+  "keywords": [
+    "jest",
+    "testing",
+    "unit-testing"
+  ],
+  "author": "Ahmed Arafa",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^30.2.0"
+  }
+}
